@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+p {
+margin-left: 50px;
+
+}
+
+h2 {
+  margin-left: 50px;
+
+  }
+
+.btn {
+margin: 50px;
+}

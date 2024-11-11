@@ -1,0 +1,19 @@
+<div class="container">
+
+<div class="card">
+  <h5 class="card-header">Question</h5>
+  <div class="card-body">
+    <p class="card-text"><%= @question %></p>
+  </div>
+</div>
+
+<div class="card">
+  <h5 class="card-header">Coach Anwer</h5>
+  <div class="card-body">
+    <p class="card-text"><%= @answers %></p>
+  </div>
+</div>
+
+</div>
+
+<%= link_to 'Ask', ask_path, class: 'btn btn-primary' %>
